@@ -3,7 +3,7 @@ package org.example;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Connection {
+public class DBConnection {
     public static java.sql.Connection getConnection()  {
         try {
             Class.forName("org.postgresql.Driver");
